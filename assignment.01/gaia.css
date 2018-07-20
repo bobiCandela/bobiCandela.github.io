@@ -1,0 +1,233 @@
+/*giving a margin of 0px to the whole of the page/website */
+*{
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+/*giving a background color to the body and making it fit the whole of the web browser window */
+body{
+    width:  100%;
+    background: #529972;
+}
+/* giving characteristics to the header */
+header{
+    height: 418px;
+    border: 0px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+/* details for the footer, adding a border, making sure it stays at the bottom of the page, adding background, padding, text color, etc */
+footer{
+    
+    clear: both;
+    height: 133px;
+    background: rgba(0,0,0,.8);
+    padding-top: 20px;529972
+    padding-left:  30px;
+    text-align: center;
+    color: mediumseagreen;
+}
+/* details for the paragraphs, justifying the text, adding padding, background, margins, borders, etc */
+p{
+    padding: 20px;
+    max-width: 800px;
+    font-size: 23px;
+    background-color: rgba(0,0,0,.9);
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: mediumseagreen;
+    text-align: justify;
+}
+ul{
+    padding: 10px;
+    margin-top: 191px;
+    background-color: black;
+    background-color: rgba(0,0,0,0.6);
+}
+/* characteristics of the link pages */
+li{
+    background-color: rgba(0,0,0,1);
+    padding: 10px;
+    color: mediumseagreen;
+    font-size: 35px;
+    font-style: italic;
+    display: inline;
+}
+/* making the color of the background(black) to go into a "lighter" one when hovering the mouse arrow above, making the opacity 0.5  */
+li:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+/* head 1 characteristics */
+h1{
+    color: mediumseagreen;
+    max-width: 800px;
+    margin-top: 70px;
+    font-size: 60px;
+    font-style: italic;
+    background-color: rgba(0,0,0,1);
+    padding: 0.3rem;
+    border-radius: 12px;
+}
+/* h2 characteristics */
+h2{
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    font-size: 28px;
+    background-color: rgba(0,0,0,.9);
+    border-radius: 12px;
+    border-bottom: 1px solid mediumseagreen;
+    color: mediumseagreen;
+}
+/* selecting the video class using "." selector and giving it characteristics */
+.video{
+    max-width: 800px;
+    text-align: center;
+}
+iframe{
+    margin: 10px 0 10px 0;
+    float: left;    
+}
+.pTitle{
+    float: left;
+}
+
+.a1:link{
+    color: mediumseagreen;
+    text-decoration: none;
+}
+.a1:visited{
+    color: mediumseagreen;
+}
+.a1:hover{
+    color: aqua;
+}
+/* selecting the id using the "#" selector */
+#index{
+    font-size: 50px;
+    color: aqua;
+}
+#shop{
+    font-size: 50px;
+    color: aqua;
+}
+#whoweare{
+    font-size: 50px;
+    color: aqua;
+}
+#whatwedo{
+    font-size: 50px;
+    color: aqua;
+}
+#contact{
+    font-size: 50px;
+    color: aqua;
+}
+#events{
+    font-size: 50px;
+    color: aqua;
+}
+/* giving characteristics to the social media link in the footer */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+    background: rgba(35, 89, 152, 0.95);
+    color: white;
+}
+.iframeMap{
+    margin-left: 350px;
+}
+.gallery{
+    max-width: 900px;
+    margin-left: 360px;
+    
+}
+.gallery img{
+    padding: 5px;
+    transition: .5s;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+.pyo{
+    font-size: 23px;
+    padding: 20px;
+    text-align: justify;
+    max-width: 800px;
+    color: mediumseagreen;
+    background-color: rgba(0,0,0,.9);
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+/* using javascript syntax and css syntax to modify the alignment, positioning of the elements when pages are opened from devices with a device having a display less wider than 870 px, which is usually maximum for mobile phones and tablets. */
+@media(max-width: 870px){
+    h1{
+        font-size: 36px;
+    }
+    li{
+        padding: 5px;
+        display: block;
+        font-size: 25px;
+    }
+    header{
+        height: 600px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .gallery{
+        margin-left: 0px;
+    }
+    header{
+        height: 571px;
+    }
+    #index{
+    font-size: 30px;
+    color: aqua;
+    }
+    #shop{
+        font-size: 30px;
+        color: aqua;
+    }
+    #whoweare{
+        font-size: 30px;
+        color: aqua;
+    }
+    #whatwedo{
+        font-size: 30px;
+        color: aqua;
+    }
+    #contact{
+        font-size: 30px;
+        color: aqua;
+    }
+    #events{
+        font-size: 30px;
+        color: aqua;
+    }   
+}
+
+
